@@ -9,6 +9,7 @@ public class Main {
 	public static void main(final String[] args) {
 		// Create a new frame (a window)
 		JFrame frame = new JFrame();
+            
 
 		GUIView guiView = new GUIView(new GameFactory());
 
@@ -25,5 +26,6 @@ public class Main {
 		// Open the window
 		frame.setVisible(true);
 		frame.requestFocus();
+        frame.setSize(15, 15);
 	}
 }
